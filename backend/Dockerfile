@@ -1,5 +1,5 @@
 FROM node:20
-EXPOS 8080
+EXPOSE 8080
 ENV DB_HOST="mysql"
 RUN  mkdir /opt/server
 WORKDIR /opt/server
